@@ -3,7 +3,7 @@
 ## Task
 This problem is from International Conference On Computer Aided Design(ICCAD) 2018.
 
-Routing problem is a critical issue in circuit design. It is a practical problem in the real world .In this project, we need to route wires to connect the pins. Given the locations and layers of pins, locations of blockages, and netlist, we need to finish the routing that satisfies all requirements by using horizontal and vertical wires in different layers and color them appropriately. 
+Routing problem is a critical issue in circuit design. It is a practical problem in the real world. In this project, we need to route wires to connect the pins. Given the locations and layers of pins, locations of blockages, and netlist, we need to finish the routing that satisfies all requirements by using horizontal and vertical wires in different layers and color them appropriately. 
 
 Requirements
 1. All pins in a single net need to be connected (No open pins)
