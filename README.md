@@ -23,7 +23,8 @@ Metal 1 and 3 are horizontal wires. On the other hand, Metal 2 and 4 are vertica
 | Metal 2 |     2     |  0.5  |  Vertical  |
 | Metal 3 |     3     |  0.5  | Horizontal |
 | Metal 4 |     4     |  0.5  |  Vertical  |
-Each metal has two colors.
+
+<br/> Each metal has two colors.
 
 ## Algorithms
 ### Main algorithms
