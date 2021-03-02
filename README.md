@@ -28,7 +28,7 @@ Each metal has two colors.
 ## Algorithms
 ### Main algorithms
 Here we applied three algorithm in our solution. Each of them serves for the different step.
-1. **Two-pins connecting** -> Hadlock algorithm<br/> 
+1. **Two-pins connecting** -> Hadlock Algorithm<br/> 
 2. **Multi-pins connecting** -> Minimum Spanning Tree by Prim's Algorithm<br/>
 3. **Coloring** -> Welsh-Powell Algorithm<br/>
 
@@ -36,7 +36,7 @@ Here we applied three algorithm in our solution. Each of them serves for the dif
 1. **Net Ordering**<br/>
    We connect nets with smaller area first.
 2. **Early stopping**<br/>
-   while we are doing Hadlock algorithm, if we meet the line of same net, we just simply connect it with the line.
+   While we are doing Hadlock algorithm, if we meet the line of same net, we just simply connect it with the line.
 
 ### Complexity analysis
 - Number of nodes: S
@@ -45,17 +45,17 @@ Here we applied three algorithm in our solution. Each of them serves for the dif
 - Number of Nets: N
 
 1. Map initialization 
-   - pins coloring: $O(P)$
-   - blocks coloring: $O(S)$
+   - pins coloring: O(P)
+   - blocks coloring: O(S)
 2. Net connecting<br/>
 Minimum Spanning Tree by Prim's Algorithm
-   - Initializtion: $O(S)$
-   - Extract Min: $O(P^2logP)$
-   - Hadlock's algorithm of every edge: $O(PSlogS)$
+   - Initializtion: O(S)
+   - Extract Min: O(P^2logP)
+   - Hadlock's algorithm of every edge: O(PSlogS)
 3. Coloring<br/>
-   $O(W+L)$
+   O(W+L)
 4. Total time complexity<br/>
-   $O(NP^2logp+NPSlogS)$
+   O(NP^2logP+NPSlogS)
 
 ## Results
 | Case  | Total<br/> length | Critical<br/> net<br/> length | Vias  | Color<br/> usage<br/> layer 1 | Color<br/> usage<br/> layer 2 | Color<br/> usage<br/> layer 3 | Color<br/> usage<br/> layer 4 |
